@@ -19,6 +19,7 @@ import time, os, sys
 from datetime import datetime
 from optparse import OptionParser
 import log_msg
+import pandas as pd
 
 def process(in_file, out_file, logg):
     """
